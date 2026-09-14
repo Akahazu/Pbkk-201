@@ -59,7 +59,7 @@ Route::prefix('dashboard')->name('dashboard.')->group(function () {
 
 
     // Kalkulator IPK
-    Route::get('/hitung/{ip1?}/{ip2?}', function ($ip1 = '3.00', $ip2 = '3.00') {
+    Route::get('/hitung-ipk/{ip1?}/{ip2?}', function ($ip1 = '3.00', $ip2 = '3.00') {
 
         $ip1 = (float) $ip1;
         $ip2 = (float) $ip2;
