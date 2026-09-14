@@ -7,7 +7,7 @@ Aplikasi profil akademis statis menggunakan Laravel routing sandbox, dibangun un
 - **Home** : Sambutan dan ringkasan singkat profil
 - **Profil Mahasiswa** (`/dashboard/mahasiswa/{nrp}`) : Detail profil berdasarkan NRP (10 digit, divalidasi regex)
 - **Ide Platform Agentic AI** (`/dashboard/agent/{tema?}`) : Penjelasan tema *System Log Anomaly Detection Agent* sebagai proyek utama, dengan beberapa opsi tema lain
-- **Kalkulator IPK** (`/dashboard/hitung/{ip1?}/{ip2?}`) : Menghitung rata-rata IP dua semester secara dinamis
+- **Kalkulator IPK** (`/dashboard/hitung-ipk/{ip1?}/{ip2?}`) : Menghitung rata-rata IP dua semester secara dinamis
 - Named routes, route grouping dengan prefix `/dashboard`, dan fallback route untuk halaman 404 custom
 
 ## Tech Stack
@@ -48,4 +48,4 @@ Lalu buka `http://127.0.0.1:8000` di browser.
 | `/` | Home |
 | `/dashboard/mahasiswa/{nrp}` | Detail profil mahasiswa |
 | `/dashboard/agent/{tema?}` | Ide platform Agentic AI |
-| `/dashboard/hitung/{ip1?}/{ip2?}` | Kalkulator IPK |
+| `/dashboard/hitung-ipk/{ip1?}/{ip2?}` | Kalkulator IPK |
