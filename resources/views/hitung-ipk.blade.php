@@ -52,7 +52,7 @@
         e.preventDefault();
         const ip1 = document.getElementById('ip1_input').value || '0';
         const ip2 = document.getElementById('ip2_input').value || '0';
-        window.location.href = `/dashboard/hitung/${ip1}/${ip2}`;
+        window.location.href = `/dashboard/hitung-ipk/${ip1}/${ip2}`;
     });
 </script>
 @endsection
