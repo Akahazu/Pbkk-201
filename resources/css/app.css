@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+    --color-cream: #F8F3EB;
+    --color-beige: #EDE3D0;
+    --color-tan: #D8C4A0;
+    --color-brown: #9C7B4F;
+    --color-darkbrown: #4A3826;
+    --color-ink: #2B2318;
+    --color-sage: #7C8B6C;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
